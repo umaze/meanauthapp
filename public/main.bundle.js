@@ -3,6 +3,7 @@ webpackJsonp(["main"],{
 /***/ "../../../../../src/$$_gendir lazy recursive":
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 function webpackEmptyAsyncContext(req) {
 	// Here Promise.resolve().then() is used instead of new Promise() to prevent
 	// uncatched exception popping up in devtools
@@ -14,6 +15,30 @@ webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
 webpackEmptyAsyncContext.id = "../../../../../src/$$_gendir lazy recursive";
+=======
+var ValidateService = (function () {
+    function ValidateService() {
+    }
+    ValidateService.prototype.validateRegister = function (user) {
+        if (user.name == undefined || user.email == undefined || user.username == undefined || user.password == undefined) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    };
+    ValidateService.prototype.validateEmail = function (email) {
+        var regExpr = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return regExpr.test(email);
+    };
+    ValidateService = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(), 
+        __metadata('design:paramtypes', [])
+    ], ValidateService);
+    return ValidateService;
+}());
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/validate.service.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -38,7 +63,15 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = "<app-navbar></app-navbar>\r\n<div class=\"container\">\r\n    <flash-messages></flash-messages>\r\n    <router-outlet></router-outlet>\r\n</div>"
+=======
+if (__WEBPACK_IMPORTED_MODULE_2__environments_environment__["a" /* environment */].production) {
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["enableProdMode"])();
+}
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_3__app_app_module__["a" /* AppModule */]);
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/main.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -72,7 +105,11 @@ var AppComponent = (function () {
     ], AppComponent);
     return AppComponent;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/app.component.js.map
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/app.component.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -158,6 +195,7 @@ var AppModule = (function () {
     ], AppModule);
     return AppModule;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/app.module.js.map
 
 /***/ }),
@@ -177,6 +215,9 @@ exports.push([module.i, "", ""]);
 
 /*** EXPORTS FROM exports-loader ***/
 module.exports = module.exports.toString();
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/app.module.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -218,7 +259,11 @@ var DashboardComponent = (function () {
     ], DashboardComponent);
     return DashboardComponent;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/dashboard.component.js.map
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/dashboard.component.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -278,7 +323,11 @@ var HomeComponent = (function () {
     ], HomeComponent);
     return HomeComponent;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/home.component.js.map
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/home.component.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -371,6 +420,7 @@ var LoginComponent = (function () {
     return LoginComponent;
     var _a, _b, _c;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/login.component.js.map
 
 /***/ }),
@@ -390,6 +440,9 @@ exports.push([module.i, "", ""]);
 
 /*** EXPORTS FROM exports-loader ***/
 module.exports = module.exports.toString();
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/login.component.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -451,6 +504,7 @@ var NavbarComponent = (function () {
     return NavbarComponent;
     var _a, _b, _c;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/navbar.component.js.map
 
 /***/ }),
@@ -470,6 +524,9 @@ exports.push([module.i, "", ""]);
 
 /*** EXPORTS FROM exports-loader ***/
 module.exports = module.exports.toString();
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/navbar.component.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -525,6 +582,7 @@ var ProfileComponent = (function () {
     return ProfileComponent;
     var _a, _b;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/profile.component.js.map
 
 /***/ }),
@@ -551,6 +609,9 @@ module.exports = module.exports.toString();
 /***/ (function(module, exports) {
 
 module.exports = "<h2 class=\"page-header\">Register</h2>\r\n<form (submit)=\"onRegisterSubmit()\">\r\n  <div class=\"form-group\">\r\n    <label>Name</label>\r\n    <input type=\"text\" [(ngModel)]=\"name\" name=\"name\" class=\"form-control\">\r\n  </div>\r\n  <div class=\"form-group\">\r\n    <label>Username</label>\r\n    <input type=\"text\" [(ngModel)]=\"username\" name=\"username\" class=\"form-control\">\r\n  </div>\r\n  <div class=\"form-group\">\r\n    <label>Email</label>\r\n    <input type=\"text\" [(ngModel)]=\"email\" name=\"email\" class=\"form-control\" >\r\n  </div>\r\n  <div class=\"form-group\">\r\n    <label>Password</label>\r\n    <input type=\"password\" [(ngModel)]=\"password\" name=\"password\" class=\"form-control\">\r\n  </div>\r\n  <input type=\"submit\" class=\"btn btn-primary\" value=\"Submit\">\r\n</form>"
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/profile.component.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -629,7 +690,11 @@ var RegisterComponent = (function () {
     return RegisterComponent;
     var _a, _b, _c, _d;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/register.component.js.map
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/register.component.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -674,7 +739,48 @@ var AuthGuard = (function () {
     return AuthGuard;
     var _a, _b;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/auth.guard.js.map
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/auth.guard.js.map
+
+/***/ }),
+
+/***/ 516:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `angular-cli.json`.
+var environment = {
+    production: false
+};
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/environment.js.map
+
+/***/ }),
+
+/***/ 676:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 677:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 678:
+/***/ (function(module, exports) {
+
+module.exports = ""
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ }),
 
@@ -751,6 +857,7 @@ var AuthService = (function () {
     return AuthService;
     var _a;
 }());
+<<<<<<< HEAD
 //# sourceMappingURL=C:/Users/Urs/Documents/js/MEAN/meanauthapp/angular-src/src/auth.service.js.map
 
 /***/ }),
@@ -838,6 +945,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 module.exports = __webpack_require__("../../../../../src/main.ts");
 
+=======
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/auth.service.js.map
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 /***/ })
 

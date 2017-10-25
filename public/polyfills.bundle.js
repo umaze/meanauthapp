@@ -2202,6 +2202,7 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../../../../core-js/modules/_own-keys.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2215,6 +2216,193 @@ module.exports = Reflect && Reflect.ownKeys || function ownKeys(it) {
   var getSymbols = gOPS.f;
   return getSymbols ? keys.concat(getSymbols(it)) : keys;
 };
+=======
+// If you need to support the browsers/features below, uncomment the import
+// and run `npm install import-name-here';
+// Learn more in https://angular.io/docs/ts/latest/guide/browser-support.html
+// Needed for: IE9
+// import 'classlist.js';
+// Animations
+// Needed for: All but Chrome and Firefox, Not supported in IE9
+// import 'web-animations-js';
+// Date, currency, decimal and percent pipes
+// Needed for: All but Chrome, Firefox, Edge, IE11 and Safari 10
+// import 'intl';
+// NgClass on SVG elements
+// Needed for: IE10, IE11
+// import 'classlist.js';
+//# sourceMappingURL=C:/Users/umaze/workspace/mean/meanauthapp_git/angular-src/src/polyfills.js.map
+
+/***/ }),
+/* 392 */,
+/* 393 */,
+/* 394 */,
+/* 395 */,
+/* 396 */,
+/* 397 */,
+/* 398 */,
+/* 399 */,
+/* 400 */,
+/* 401 */,
+/* 402 */,
+/* 403 */,
+/* 404 */,
+/* 405 */,
+/* 406 */,
+/* 407 */,
+/* 408 */,
+/* 409 */,
+/* 410 */,
+/* 411 */,
+/* 412 */,
+/* 413 */,
+/* 414 */,
+/* 415 */,
+/* 416 */,
+/* 417 */,
+/* 418 */,
+/* 419 */,
+/* 420 */,
+/* 421 */,
+/* 422 */,
+/* 423 */,
+/* 424 */,
+/* 425 */,
+/* 426 */,
+/* 427 */,
+/* 428 */,
+/* 429 */,
+/* 430 */,
+/* 431 */,
+/* 432 */,
+/* 433 */,
+/* 434 */,
+/* 435 */,
+/* 436 */,
+/* 437 */,
+/* 438 */,
+/* 439 */,
+/* 440 */,
+/* 441 */,
+/* 442 */,
+/* 443 */,
+/* 444 */,
+/* 445 */,
+/* 446 */,
+/* 447 */,
+/* 448 */,
+/* 449 */,
+/* 450 */,
+/* 451 */,
+/* 452 */,
+/* 453 */,
+/* 454 */,
+/* 455 */,
+/* 456 */,
+/* 457 */,
+/* 458 */,
+/* 459 */,
+/* 460 */,
+/* 461 */,
+/* 462 */,
+/* 463 */,
+/* 464 */,
+/* 465 */,
+/* 466 */,
+/* 467 */,
+/* 468 */,
+/* 469 */,
+/* 470 */,
+/* 471 */,
+/* 472 */,
+/* 473 */,
+/* 474 */,
+/* 475 */,
+/* 476 */,
+/* 477 */,
+/* 478 */,
+/* 479 */,
+/* 480 */,
+/* 481 */,
+/* 482 */,
+/* 483 */,
+/* 484 */,
+/* 485 */,
+/* 486 */,
+/* 487 */,
+/* 488 */,
+/* 489 */,
+/* 490 */,
+/* 491 */,
+/* 492 */,
+/* 493 */,
+/* 494 */,
+/* 495 */,
+/* 496 */,
+/* 497 */,
+/* 498 */,
+/* 499 */,
+/* 500 */,
+/* 501 */,
+/* 502 */,
+/* 503 */,
+/* 504 */,
+/* 505 */,
+/* 506 */,
+/* 507 */,
+/* 508 */,
+/* 509 */,
+/* 510 */,
+/* 511 */,
+/* 512 */,
+/* 513 */,
+/* 514 */,
+/* 515 */,
+/* 516 */,
+/* 517 */,
+/* 518 */,
+/* 519 */,
+/* 520 */,
+/* 521 */,
+/* 522 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(163);
+__webpack_require__(560);
+__webpack_require__(558);
+__webpack_require__(564);
+__webpack_require__(561);
+__webpack_require__(567);
+__webpack_require__(569);
+__webpack_require__(557);
+__webpack_require__(563);
+__webpack_require__(554);
+__webpack_require__(568);
+__webpack_require__(552);
+__webpack_require__(566);
+__webpack_require__(565);
+__webpack_require__(559);
+__webpack_require__(562);
+__webpack_require__(551);
+__webpack_require__(553);
+__webpack_require__(556);
+__webpack_require__(555);
+__webpack_require__(570);
+__webpack_require__(362);
+module.exports = __webpack_require__(14).Array;
+
+
+/***/ }),
+/* 523 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(571);
+__webpack_require__(573);
+__webpack_require__(572);
+__webpack_require__(575);
+__webpack_require__(574);
+module.exports = Date;
+>>>>>>> 8f1fd008716c9334ee7ec8e6a4c7a900e3c0ee3a
 
 
 /***/ }),
